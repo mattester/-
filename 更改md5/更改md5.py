@@ -1,8 +1,8 @@
 import os
 
 def fileAppend(filename):
-    myfile = open(filename,'hang')
-    myfile.write("####&&&&")
+    myfile = open(filename,'a')
+    myfile.write("#1234")
     myfile.close
 
 while True:
